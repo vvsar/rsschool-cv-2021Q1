@@ -1,0 +1,68 @@
+.attic {
+    display: flex;
+    background-color: #4682B4;
+    padding: 40px;
+}
+
+.img {
+    margin-right: 80px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.right {
+    display: block;
+}
+
+h1 {
+    font: Arial, sans-serif;
+    color: #FFDEAD;
+}
+
+.sec1 {
+    background-color: #E0FFFF;
+    padding: 1px 0 5px 0;
+}
+
+.sec2 {
+    background-color: #F0FFFF;
+    padding: 1px 0 5px 0;
+}
+
+.par {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.list {
+    font-size: 20px;
+    font: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.h2 {
+    color: #FFDEAD;
+    margin-left: 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: #FFDEAD;
+}
+
+.code {
+    background-color: beige;
+    width: 50%;
+}
+
