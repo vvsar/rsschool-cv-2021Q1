@@ -3,7 +3,8 @@
 ## Contacts  
 E-mail: victor_saraev@epam.com; vvsar@mail.ru  
 Skype: victor.saraev  
-Telegram: Victor Saraev  
+Telegram: Victor Saraev 
+[LinkedIn](https://www.linkedin.com/in/victor-saraev-2aa72a62/) 
 
 ## About me  
 A highly proficient and experienced chemist currently working for EPAM Systems. Although lacking IT education and experience, I like the opportunity to receive new knowledge and skills necessary for IT specialists. Possessing good interpersonal and synthetic skills, I am on the point of boosting the personal growth that may turn my life upside down.
