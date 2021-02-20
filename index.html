@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Victor Saraev's resume</title>
+    <link href="cvhtml.css" rel="stylesheet">
+    <style>
+        body {
+         max-width: 1024px; 
+        }
+    </style>
+</head>
+<body>
+<header class="attic">
+    <div class="img">
+        <img src="img/mar0600.jpg" alt="Photo" width="240"</img>
+    </div>
+    <div class="right">
+        <h1>Victor Saraev</h1>
+        <h2 class="h2">Contacts</h2>
+        <p class="h2">E-mail: <a class="a" href="mailto:victor_saraev@epam.com">victor_saraev@epam.com</a>; <a class="a" href="mailto:vvsar@mail.ru">vvsar@mail.ru</a></p>
+        <div class="contacts">
+            <p><a href="skype:victor.saraev"><img class="social" src="img/skype.png" alt="Skype"></a></p>
+            <p><a href="tg://resolve?domain=Victor Saraev"><img class="social" src="img/telegram.png" alt="Telegram"></a></p>
+            <p><a href="https://www.linkedin.com/in/victor-saraev-2aa72a62/"><img class="social" src="img/linkedin.png" alt="LinkedIn"></a></p>
+            <p><a href="https://www.instagram.com/victor.saraev/"><img class="social" src="img/instagram.png" alt="Instagram"></a></p>
+            <p><a href="https://vk.com/vvsar"><img class="social" src="img/vkontakte.png" alt="Vkontakte"></a></p>
+        </div>
+        </div>
+</header>
+<main>
+    <section class="sec1">
+        <h2>About me</h2>
+        <p class="par">A highly proficient and experienced chemist currently working for EPAM Systems. Although lacking IT education and experience, I like the opportunity to receive new knowledge and skills necessary for IT specialists. Possessing good interpersonal and synthetic skills, I am on the point of boosting my personal growth that may turn my life upside down.</p>
+    </section>
+    <section class="sec2">
+        <h2>IT hard skills</h2>
+        <p class="par">Beginner. Studied at RSSchool JS/FE 2020q3 course</p>
+    </section>
+    <section class="sec1">
+        <h2>Code example</h2>
+        <p class="par"><a href="https://www.codewars.com/kata/525a037c82bf42b9f800029b">Partitition on - 5 kyu kata at Codewars:</a></p>
+        <div class="code">
+        <p class="par"><p><code><pre>
+          function partitionOn(pred, items) {
+            let arr = [];
+            let arr1 = [];
+            for (j = 0; j < items.length; j++) {
+              if (pred(items[j]) == false) {
+                arr.push(items[j]);
+              } else {
+                arr1.push(items[j]);
+              }
+            }
+            let n = arr.length;
+            arr = arr.concat(arr1);
+            for (h = 0; h < items.length; h++) {
+              items.shift();
+              items.push(arr[h]);
+            }
+            return n;
+          }</pre></code></p>
+        </div>
+    </section>
+    <section class="sec2">
+        <h2>Current occupation</h2>
+        <p class="par">scientific curation specialist (non-IT, contractor) since 2010  <br/><a href="https://www.epam-group.ru/about/who-we-are/epam-russia/spb">EPAM Systems (St. Petersburg branch)</a></p>
+    </section>
+    <section class="sec1">
+        <h2>Education</h2>
+        <p class="par"><b>1988-1993</b><br/>engineering in chemical technology of organic compounds of nitrogen<br/><a href="http://technolog.edu.ru/en/">St. Petersburg State Institute of Technology</a><br/><i>(interrupted by the military service)</i></p>
+        <p class="par"><b>1993-1996</b><br/>organic chemistry &mdash; post-graduate course<br/><a href="http://technolog.edu.ru/en/">St. Petersburg State Institute of Technology</a></p>
+        <p class="par"><b>1999</b><br/>PhD in organic chemistry</p>
+    </section>
+    <section class="sec2">
+        <h2>Languages</h2>
+        <ul class="list">
+            <li>Russian (native)</li>
+            <li>English (B1)</li>
+            <li>Swedish (beginner)</li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>
