@@ -3,7 +3,7 @@
 ## Contacts  
 E-mail: victor_saraev@epam.com; vvsar@mail.ru  
 Skype: victor.saraev  
-Telegram: Victor Saraev 
+Telegram: Victor Saraev
 [LinkedIn](https://www.linkedin.com/in/victor-saraev-2aa72a62/) 
 
 ## About me  
