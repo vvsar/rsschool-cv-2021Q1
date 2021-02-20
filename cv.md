@@ -16,23 +16,23 @@ Beginner. Studied at RSSchool JS/FE 2020q3 course
 
 ```
 function partitionOn(pred, items) {
-            let arr = [];
-            let arr1 = [];
-            for (j = 0; j < items.length; j++) {
-              if (pred(items[j]) == false) {
-                arr.push(items[j]);
-              } else {
-                arr1.push(items[j]);
-              }
-            }
-            let n = arr.length;
-            arr = arr.concat(arr1);
-            for (h = 0; h < items.length; h++) {
-              items.shift();
-              items.push(arr[h]);
-            }
-            return n;
-          }
+  let arr = [];
+  let arr1 = [];
+  for (j = 0; j < items.length; j++) {
+    if (pred(items[j]) == false) {
+      arr.push(items[j]);
+    } else {
+      arr1.push(items[j]);
+    }
+  }
+  let n = arr.length;
+  arr = arr.concat(arr1);
+  for (h = 0; h < items.length; h++) {
+    items.shift();
+    items.push(arr[h]);
+  }
+  return n;
+}
 ```
 
 ## Current occupation  
