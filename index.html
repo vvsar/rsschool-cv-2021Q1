@@ -21,7 +21,7 @@
         <p class="h2">E-mail: <a class="a" href="mailto:victor_saraev@epam.com">victor_saraev@epam.com</a>; <a class="a" href="mailto:vvsar@mail.ru">vvsar@mail.ru</a></p>
         <div class="contacts">
             <p><a href="skype:victor.saraev"><img class="social" src="img/skype.png" alt="Skype"></a></p>
-            <p><a href="tg://resolve?domain=Victor Saraev"><img class="social" src="img/telegram.png" alt="Telegram"></a></p>
+            <p><a href="tg://resolve?domain=victor.saraev"><img class="social" src="img/telegram.png" alt="Telegram"></a></p>
             <p><a href="https://www.linkedin.com/in/victor-saraev-2aa72a62/"><img class="social" src="img/linkedin.png" alt="LinkedIn"></a></p>
             <p><a href="https://www.instagram.com/victor.saraev/"><img class="social" src="img/instagram.png" alt="Instagram"></a></p>
             <p><a href="https://vk.com/vvsar"><img class="social" src="img/vkontakte.png" alt="Vkontakte"></a></p>
@@ -41,11 +41,11 @@
         <h2>Code example</h2>
         <p class="par"><a href="https://www.codewars.com/kata/525a037c82bf42b9f800029b">Partitition on - 5 kyu kata at Codewars:</a></p>
         <div class="code">
-        <p class="par"><code><pre>
+        <pre><code>
           function partitionOn(pred, items) {
             let arr = [];
             let arr1 = [];
-            for (j = 0; j < items.length; j++) {
+            for (j = 0; j &lt; items.length; j++) {
               if (pred(items[j]) == false) {
                 arr.push(items[j]);
               } else {
@@ -54,12 +54,13 @@
             }
             let n = arr.length;
             arr = arr.concat(arr1);
-            for (h = 0; h < items.length; h++) {
+            for (h = 0; h &lt; items.length; h++) {
               items.shift();
               items.push(arr[h]);
             }
             return n;
-          }</pre></code></p>
+          }
+        </code></pre>
         </div>
     </section>
     <section class="sec2">
