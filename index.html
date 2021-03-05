@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Victor Saraev's resume</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        body {
+         max-width: 1024px; 
+        }
+    </style>
+</head>
+<body>
+<header class="attic">
+    <div class="left">
+        <img src="img/mar0600.jpg" alt="Photo" width="240">
+    </div>
+    <div class="right">
+        <h1>Victor Saraev</h1>
+        <p class="cont">Contacts</p>
+        <ul class="nobull">
+            <li class="cont-li">
+                <a href="mailto:victor_saraev@epam.com"><img class="link-icon" src="img/email.png" alt="Email"></a>
+                <div></div><a class="a" href="mailto:victor_saraev@epam.com">victor_saraev@epam.com</a>
+            </li>
+            <li class="cont-li">
+                <a href="mailto:vvsar@mail.ru"><img class="link-icon" src="img/email.png" alt="Email"></a>
+                <div><a class="a" href="mailto:vvsar@mail.ru">vvsar@mail.ru</a></div>
+            </li>
+            <li class="cont-li">
+                <a href="skype:victor.saraev"><img class="link-icon" src="img/skype.png" alt="Skype"></a>
+                <div><a class="a" href="skype:victor.saraev">Skype: victor.saraev</a></div>
+            </li>
+            <li class="cont-li">
+                <a href="tg://resolve?domain=victor_saraev"><img class="link-icon" src="img/telegram.png" alt="Telegram"></a>
+                <div><a class="a" href="tg://resolve?domain=victor_saraev">Telegram: @victor_saraev</a></div>
+            </li>
+        </ul>
+        <div class="networks">
+            <a href="https://github.com/vvsar"><img class="social" src="img/github-mark.png" alt="Github"></a>
+            <div class="empty"></div>
+            <a href="https://www.linkedin.com/in/victor-saraev-2aa72a62/"><img class="social" src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/victor.saraev/"><img class="social" src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://vk.com/vvsar"><img class="social" src="img/vkontakte.png" alt="Vkontakte"></a>
+            <a href="https://www.strava.com/athletes/19132901"><img class="social" src="img/strava.png" alt="Strava"></a>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="sec1">
+        <h2>About me</h2>
+        <p class="par">A highly proficient and experienced chemist currently working for EPAM Systems. Although lacking IT education and experience, I like the opportunity to receive new knowledge and skills necessary for IT specialists. Possessing good interpersonal and synthetic skills, I am on the point of boosting my personal growth that may turn my life upside down.</p>
+    </section>
+    <section class="sec2">
+        <h2>IT hard skills: beginner</h2>
+        <ul class="list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & Github</li>
+        </ul>
+    </section>
+    <section class="sec1">
+        <h2>Code example</h2>
+        <p class="par"><a href="https://www.codewars.com/kata/525a037c82bf42b9f800029b">Partitition on - 5 kyu kata at Codewars:</a></p>
+        <div class="code">
+        <pre><code>
+          function partitionOn(pred, items) {
+            let arr = [];
+            let arr1 = [];
+            for (j = 0; j &lt; items.length; j++) {
+              if (pred(items[j]) == false) {
+                arr.push(items[j]);
+              } else {
+                arr1.push(items[j]);
+              }
+            }
+            let n = arr.length;
+            arr = arr.concat(arr1);
+            for (h = 0; h &lt; items.length; h++) {
+              items.shift();
+              items.push(arr[h]);
+            }
+            return n;
+          }
+        </code></pre>
+        </div>
+    </section>
+    <section class="sec2">
+        <h2>Current occupation</h2>
+        <p class="par">scientific curation specialist (non-IT, contractor) since 2010  <br/><a href="https://www.epam-group.ru/about/who-we-are/epam-russia/spb">EPAM Systems (St. Petersburg branch)</a></p>
+    </section>
+    <section class="sec1">
+        <h2>Education</h2>
+        <p class="par"><b>1988-1993</b><br/>engineering in chemical technology of organic compounds of nitrogen<br/><a href="http://technolog.edu.ru/en/">St. Petersburg State Institute of Technology</a><br/><i>(interrupted by the military service)</i></p>
+        <p class="par"><b>1993-1996</b><br/>organic chemistry &mdash; post-graduate course<br/><a href="http://technolog.edu.ru/en/">St. Petersburg State Institute of Technology</a></p>
+        <p class="par"><b>1999</b><br/>PhD in organic chemistry</p>
+    </section>
+    <section class="sec2">
+        <h2>Languages</h2>
+        <ul class="list">
+            <li>Russian (native)</li>
+            <li>English (B1)</li>
+            <li>Swedish (beginner)</li>
+        </ul>
+    </section>
+</main>
+<footer class="foot">
+    <div class="logo">
+        <p><a href="https:/rs.school/js/"><img src="img/rs_school_js.svg" alt="Course" width="30%"></a></p>
+    </div>
+    <div class="time"><time>2021</time></div>
+    <div class="youtube">
+        <p><a href="https:/www.youtube.com/"><img class="social" src="img/youtube.png" alt="Youtube"></a></p>
+    </div>
+</footer>
+</body>
+</html>

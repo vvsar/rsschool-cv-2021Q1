@@ -1,0 +1,113 @@
+body {
+    margin: auto;
+}
+
+.attic {
+    display: flex;
+    background-color: #4682B4;
+    padding: 40px;
+}
+
+.left {
+    margin-right: 80px;
+}
+
+.networks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cont {
+    color: #FFDEAD;
+    margin-left: 40px;
+    margin-bottom: 0;
+    font: Arial, sans-serif;
+    font-size: 25px;
+}
+
+.nobull {
+    list-style-type: none;
+    margin: 10px 0 20px 20px;
+    padding: 0;
+}
+
+.cont-li {
+    display: flex;
+}
+
+.link-icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.social {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.empty {
+    width: 60px;
+}
+
+.right {
+    display: block;
+}
+
+h1 {
+    margin-block: 0;
+    font: Arial, sans-serif;
+    font-size: 50px;
+    color: #FFDEAD;
+}
+
+.sec1 {
+    background-color: #E0FFFF;
+    padding: 1px 0 5px 20px;
+}
+
+.sec2 {
+    background-color: #F0FFFF;
+    padding: 1px 0 5px 20px;
+}
+
+.par {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.list {
+    font-size: 20px;
+    font: Arial, sans-serif;
+}
+
+.a {
+    text-decoration: none;
+    color: #FFDEAD;
+}
+
+.code {
+    background-color: beige;
+    width: 50%;
+}
+
+.foot {
+    display: flow-root;
+    background-color: #4682B4;
+}
+
+.logo {
+    float: left;
+    margin: 10px;
+}
+
+.time {
+    float: left;
+    color: #FFDEAD;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.youtube {
+    float: right;
+    margin: 10px;
+}
